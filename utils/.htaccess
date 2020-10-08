@@ -1,0 +1,5 @@
+Options -Indexes
+RewriteEngine On
+RewriteBase /
+Options +FollowSymLinks
+RewriteRule ^ / [R,L,NC]
